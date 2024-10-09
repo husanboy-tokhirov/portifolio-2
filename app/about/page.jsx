@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import avatar from '../../src/components/images/th.jpg'
-import men from '../../src/components/images/html.png' 
+import men from '../../src/components/images/men.png' 
 
 const Page = () => { 
   return (
