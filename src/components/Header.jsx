@@ -4,24 +4,24 @@ const Header = () => {
   return (
     <header className="bg-gray-800 p-4 shadow-lg">
       <nav>
-        <ul className="flex justify-center gap-8 flex-wrap sm:flex-nowrap sm:flex-row sm:justify-center sm:gap-8">
-          <li className="w-full sm:w-auto">
-            <Link href="/" className="text-white hover:text-sky-500 transition duration-300 block text-center">
+        <ul className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-8">
+          <li>
+            <Link href="/" className="text-white hover:text-sky-500 transition duration-300">
               Home
             </Link>
           </li>
-          <li className="w-full sm:w-auto">
-            <Link href="/about" className="text-white hover:text-sky-500 transition duration-300 block text-center">
+          <li>
+            <Link href="/about" className="text-white hover:text-sky-500 transition duration-300">
               About
             </Link>
           </li>
-          <li className="w-full sm:w-auto">
-            <Link href="/mywork" className="text-white hover:text-sky-500 transition duration-300 block text-center">
+          <li>
+            <Link href="/mywork" className="text-white hover:text-sky-500 transition duration-300">
               MyWork
             </Link>
           </li>
-          <li className="w-full sm:w-auto">
-            <Link href="/contact" className="text-white hover:text-sky-500 transition duration-300 block text-center">
+          <li>
+            <Link href="/contact" className="text-white hover:text-sky-500 transition duration-300">
               Contact
             </Link>
           </li>
